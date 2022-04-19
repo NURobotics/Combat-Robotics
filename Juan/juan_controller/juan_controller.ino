@@ -1,9 +1,9 @@
 #include <FR.h>
-#include <ServoESP32.h>
+#include <ESP32Servo.h>
 
 
 static const int MRPin = A0; // Right motor PWM (speed)
-static const int MLPin = A1; // Left motor PWM (speed)
+static const int MLPin = 13; // Left motor PWM (speed)
 static const int DPin = 12;
 
 Servo rightMotor;

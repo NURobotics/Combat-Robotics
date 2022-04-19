@@ -1,5 +1,11 @@
+#include <ESP32Servo.h>
+#include <analogWrite.h>
+//#include <tone.h>
+#include <ESP32Tone.h>
+#include <ESP32PWM.h>
+
 #include <PS4Controller.h>
-#include <ServoESP32.h>
+//#include <Servo.h>
 
 
 static const int MRPin = A0; // Right motor PWM (speed)
